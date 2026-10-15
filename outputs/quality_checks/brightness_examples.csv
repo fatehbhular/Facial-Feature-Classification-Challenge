@@ -1,0 +1,17 @@
+split,filename,path,readable,width,height,aspect_ratio,colour_mode,image_format,brightness,sharpness_score,error,review_group
+test,24326.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/24326.jpg,True,133,110,1.2091,RGB,JPEG,0.17,12.37,,Darkest
+test,14017.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/14017.jpg,True,86,81,1.0617,RGB,JPEG,1.05,25.3,,Darkest
+test,00164.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/00164.jpg,True,103,125,0.824,RGB,JPEG,1.08,25.21,,Darkest
+test,23165.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/23165.jpg,True,31,20,1.55,RGB,JPEG,1.11,0.46,,Darkest
+test,18342.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/18342.jpg,True,199,127,1.5669,RGB,JPEG,1.29,4.73,,Darkest
+train,39808.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/train/train/39808.jpg,True,54,54,1.0,RGB,JPEG,1.48,5.11,,Darkest
+test,06485.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/06485.jpg,True,163,145,1.1241,RGB,JPEG,1.51,3.63,,Darkest
+test,23442.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/23442.jpg,True,73,55,1.3273,RGB,JPEG,1.87,9.78,,Darkest
+train,14669.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/train/train/14669.jpg,True,30,30,1.0,RGB,JPEG,253.91,0.43,,Brightest
+train,36770.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/train/train/36770.jpg,True,40,40,1.0,RGB,JPEG,252.98,4.06,,Brightest
+test,18957.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/18957.jpg,True,67,53,1.2642,RGB,JPEG,251.95,63.16,,Brightest
+train,34351.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/train/train/34351.jpg,True,22,22,1.0,RGB,JPEG,250.11,0.76,,Brightest
+train,31095.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/train/train/31095.jpg,True,74,74,1.0,RGB,JPEG,248.95,11.95,,Brightest
+test,01526.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/01526.jpg,True,60,60,1.0,RGB,JPEG,246.68,72.9,,Brightest
+test,18543.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/18543.jpg,True,27,27,1.0,RGB,JPEG,246.55,23.62,,Brightest
+test,04816.jpg,/Users/fatehbhular/ENSE707-Kaggle-Competition/data/test/test/04816.jpg,True,61,61,1.0,RGB,JPEG,246.54,21.26,,Brightest

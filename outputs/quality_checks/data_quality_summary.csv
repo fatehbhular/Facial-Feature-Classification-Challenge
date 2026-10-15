@@ -1,0 +1,18 @@
+Quality check,Result,Meaning
+Training images,63660,Available for development
+Test images,29443,Reserved for final Kaggle predictions
+Missing training images,0,Should normally be zero
+Training images without labels,0,Should normally be zero
+Missing test images,0,Should normally be zero
+Repeated training IDs,0,Should normally be zero
+Missing training CSV values,0,Should normally be zero
+Unreadable images,0,Unreadable files may need to be excluded
+Unique training image dimensions,7861,Shows whether resizing is required
+Unique test image dimensions,7786,Shows whether resizing is required
+Training colour formats,RGB,Images will later be converted consistently
+Test colour formats,RGB,Images will later be converted consistently
+Exact duplicate groups,77,Must be considered before creating the split
+Duplicate groups with conflicting labels,0,Possible label-quality problem
+Exact train-test duplicate groups,0,Report but do not manually label the test set
+Potentially blurry images,Manual review required,Inspect the displayed candidates
+Unclear class boundaries,Manual review required,Inspect examples and later model errors

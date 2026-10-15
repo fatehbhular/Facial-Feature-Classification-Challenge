@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Temporary files
+tmp/
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Competition data
+data/
+*.zip
+
+# Trained models
+models/
+*.pt
+*.pth
+
+# Local editor settings
+.vscode/

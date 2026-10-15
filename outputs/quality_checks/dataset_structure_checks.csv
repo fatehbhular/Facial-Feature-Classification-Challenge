@@ -1,0 +1,15 @@
+Check,Result
+Training CSV rows,63660
+Training JPG files,63660
+Sample-submission rows,29443
+Test JPG files,29443
+Missing values in training CSV,0
+Repeated training IDs,0
+Repeated submission IDs,0
+Training labels without images,0
+Training images without labels,0
+Submission IDs without test images,0
+Test images not in submission,0
+Unexpected training file types,0
+Unexpected test file types,0
+Unexpected class names,0
