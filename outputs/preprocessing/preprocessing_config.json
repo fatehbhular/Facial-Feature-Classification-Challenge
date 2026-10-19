@@ -1,0 +1,47 @@
+{
+    "random_seed": 42,
+    "image_size": 224,
+    "batch_size": 32,
+    "validation_fraction": 0.2,
+    "class_names": [
+        "CatEye",
+        "DogEye",
+        "CatFace",
+        "DogFace",
+        "CatMouth",
+        "DogMouth",
+        "CatNose",
+        "DogNose"
+    ],
+    "class_to_index": {
+        "CatEye": 0,
+        "DogEye": 1,
+        "CatFace": 2,
+        "DogFace": 3,
+        "CatMouth": 4,
+        "DogMouth": 5,
+        "CatNose": 6,
+        "DogNose": 7
+    },
+    "normalisation_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalisation_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "square_padding": true,
+    "training_augmentation": {
+        "horizontal_flip_probability": 0.5,
+        "maximum_rotation_degrees": 10,
+        "brightness_change": 0.15,
+        "contrast_change": 0.15,
+        "saturation_change": 0.1
+    },
+    "validation_random_augmentation": false,
+    "test_random_augmentation": false,
+    "num_workers": 0
+}

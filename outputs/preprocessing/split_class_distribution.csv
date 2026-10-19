@@ -1,0 +1,25 @@
+class,images,percentage,subset
+CatEye,13884,21.809613572101792,Complete labelled data
+DogEye,11580,18.190386427898208,Complete labelled data
+CatFace,6942,10.904806786050896,Complete labelled data
+DogFace,5790,9.095193213949104,Complete labelled data
+CatMouth,6942,10.904806786050896,Complete labelled data
+DogMouth,5790,9.095193213949104,Complete labelled data
+CatNose,6942,10.904806786050896,Complete labelled data
+DogNose,5790,9.095193213949104,Complete labelled data
+CatEye,11107,21.80922086082312,Training
+DogEye,9264,18.190386427898208,Training
+CatFace,5553,10.903628652214891,Training
+DogFace,4632,9.095193213949104,Training
+CatMouth,5554,10.905592208608232,Training
+DogMouth,4632,9.095193213949104,Training
+CatNose,5554,10.905592208608232,Training
+DogNose,4632,9.095193213949104,Training
+CatEye,2777,21.811184417216463,Validation
+DogEye,2316,18.190386427898208,Validation
+CatFace,1389,10.90951932139491,Validation
+DogFace,1158,9.095193213949104,Validation
+CatMouth,1388,10.901665095821551,Validation
+DogMouth,1158,9.095193213949104,Validation
+CatNose,1388,10.901665095821551,Validation
+DogNose,1158,9.095193213949104,Validation

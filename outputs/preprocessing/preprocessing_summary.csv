@@ -1,0 +1,13 @@
+pipeline_step,decision,reason
+Colour conversion,Convert every opened image to RGB,Provide three consistent colour channels
+Shape handling,Pad the shorter sides to create a square,Preserve image proportions before resizing
+Image resizing,Resize to 224 × 224,Provide one input size for both planned CNN models
+Label encoding,Fixed mapping from eight class names to 0–7,Provide numerical targets for the CNN
+Development split,Approximately 80% training and 20% validation,Create an unseen labelled validation subset
+Duplicate protection,Keep exact duplicate groups in one subset,Prevent duplicate leakage between subsets
+Training augmentation,"Horizontal flip, small rotation, and small colour changes",Improve robustness to normal visual variation
+Validation augmentation,No random augmentation,Keep validation results fair and repeatable
+Test augmentation,No random augmentation,Keep final prediction processing repeatable
+Normalisation,ImageNet mean and standard deviation,Match the expected input for pretrained ResNet18
+Batch loading,PyTorch DataLoader with batch size 32,Load images efficiently in manageable groups
+Random seed,42,Make the split and experiments reproducible

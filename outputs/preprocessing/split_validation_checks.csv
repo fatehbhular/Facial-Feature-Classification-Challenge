@@ -1,0 +1,6 @@
+check,result,expected
+Shared image IDs,0,0
+Shared duplicate groups,0,0
+All classes in training,True,True
+All classes in validation,True,True
+All labelled images accounted for,True,True

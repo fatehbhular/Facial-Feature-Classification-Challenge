@@ -5,3 +5,6 @@ pandas
 matplotlib
 Pillow
 tqdm
+torch
+torchvision
+scikit-learn

@@ -1,0 +1,14 @@
+check,result,expected
+Original training CSV still exists,True,True
+Original sample-submission CSV still exists,True,True
+Original training image folder still exists,True,True
+Original test image folder still exists,True,True
+Training and validation cover all labelled images,True,True
+Shared image IDs across development subsets,0,0
+Shared duplicate groups across development subsets,0,0
+Every class appears in training,True,True
+Every class appears in validation,True,True
+Training batch has three colour channels,True,True
+Training batch uses 224 × 224 images,True,True
+Validation processing is deterministic,True,True
+Test order matches sample submission,True,True
