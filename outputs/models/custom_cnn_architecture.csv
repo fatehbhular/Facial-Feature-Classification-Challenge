@@ -1,0 +1,9 @@
+stage,main_operations,output_shape_per_image
+Input,Normalised RGB image,3 × 224 × 224
+Convolution block 1,"Two convolutions, batch normalisation, ReLU, max pooling",32 × 112 × 112
+Convolution block 2,"Two convolutions, batch normalisation, ReLU, max pooling",64 × 56 × 56
+Convolution block 3,"Two convolutions, batch normalisation, ReLU, max pooling",128 × 28 × 28
+Convolution block 4,"Two convolutions, batch normalisation, ReLU, max pooling",256 × 14 × 14
+Adaptive average pooling,One value per final feature map,256 × 1 × 1
+Dropout,Drop 40% of features during training,256
+Linear output,Eight raw class scores,8

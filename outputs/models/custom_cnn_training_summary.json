@@ -1,0 +1,13 @@
+{
+    "epochs_completed": 13,
+    "best_epoch": 13,
+    "best_validation_loss": 0.06707265371286453,
+    "best_validation_accuracy": 0.9783223374175306,
+    "training_accuracy_at_best_epoch": 0.9725691171850456,
+    "accuracy_gap_at_best_epoch": -0.005753220232485,
+    "verified_validation_loss": 0.06707311217988245,
+    "verified_validation_accuracy": 0.9783223374175306,
+    "validation_images": 12732,
+    "total_training_minutes": 110.00072750001668,
+    "stop_reason": "time_guard"
+}

@@ -1,0 +1,12 @@
+check,result,expected
+"Training subset contains 50,928 images",True,True
+"Validation subset contains 12,732 images",True,True
+Shared image IDs,0,0
+Shared duplicate groups,0,0
+"Input batch has shape [32, 3, 224, 224]","(32, 3, 224, 224)","(32, 3, 224, 224)"
+"Model output has shape [32, 8]","(32, 8)","(32, 8)"
+Cross-entropy returns one finite loss value,True,True
+All model parameters are trainable,True,True
+Forward check left parameters unchanged,True,True
+Test order matches sample submission,True,True
+Training controller was not called in Part A,True,True

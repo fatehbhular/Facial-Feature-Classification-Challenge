@@ -13,7 +13,7 @@ data/
 *.zip
 
 # Trained models
-models/
+/models/
 *.pt
 *.pth
 

@@ -1,0 +1,8 @@
+strategy,purpose
+Training augmentation,Expose the model to realistic visual variation
+Batch normalisation,Stabilise activations during learning
+Dropout,Reduce reliance on individual pooled features
+AdamW weight decay,Discourage unnecessarily large weights
+Learning-rate scheduling,Use smaller updates when validation loss stops improving
+Early stopping,Stop after validation accuracy no longer improves
+Fixed validation split,Measure every epoch on the same unseen labelled images
