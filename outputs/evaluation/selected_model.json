@@ -1,0 +1,9 @@
+{
+    "selected_model": "ResNet18",
+    "selection_basis": "Highest validation accuracy, followed by macro F1 and lower validation loss",
+    "validation_accuracy": 0.9965441407477222,
+    "validation_loss": 0.05813228863048883,
+    "macro_f1": 0.9967091701795414,
+    "validation_images": 12732,
+    "test_images_used_for_selection": false
+}

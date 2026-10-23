@@ -1,0 +1,22 @@
+{
+    "selected_model": "ResNet18",
+    "checkpoint_epoch": 10,
+    "validation_accuracy": 0.9965441407477222,
+    "test_images": 29443,
+    "prediction_seconds": 1505.403326565,
+    "mean_confidence": 0.9005966871233895,
+    "minimum_confidence": 0.18007472157478333,
+    "predicted_class_counts": {
+        "CatEye": 6253,
+        "DogEye": 5138,
+        "CatFace": 3139,
+        "DogFace": 2786,
+        "CatMouth": 3396,
+        "DogMouth": 3267,
+        "CatNose": 2994,
+        "DogNose": 2470
+    },
+    "submission_checks_passed": true,
+    "test_data_used_for_training": false,
+    "test_data_used_for_model_selection": false
+}

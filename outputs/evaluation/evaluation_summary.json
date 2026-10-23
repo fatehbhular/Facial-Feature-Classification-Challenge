@@ -1,0 +1,48 @@
+{
+    "validation_images": 12732,
+    "class_names": [
+        "CatEye",
+        "DogEye",
+        "CatFace",
+        "DogFace",
+        "CatMouth",
+        "DogMouth",
+        "CatNose",
+        "DogNose"
+    ],
+    "models": [
+        {
+            "model": "Custom CNN",
+            "validation_accuracy": 0.9783223374175306,
+            "validation_loss": 0.06707340948918013,
+            "macro_precision": 0.9810239379859256,
+            "macro_recall": 0.9782307874361736,
+            "macro_f1": 0.9795052375042107,
+            "weighted_f1": 0.9783385427255464,
+            "parameter_count": 1175272,
+            "evaluation_seconds": 236.16355952699996
+        },
+        {
+            "model": "ResNet18",
+            "validation_accuracy": 0.9965441407477222,
+            "validation_loss": 0.05813228863048883,
+            "macro_precision": 0.9968601978919747,
+            "macro_recall": 0.9965620161444946,
+            "macro_f1": 0.9967091701795414,
+            "weighted_f1": 0.9965434048332351,
+            "parameter_count": 11180616,
+            "evaluation_seconds": 19.766285185000015
+        }
+    ],
+    "selected_model": {
+        "selected_model": "ResNet18",
+        "selection_basis": "Highest validation accuracy, followed by macro F1 and lower validation loss",
+        "validation_accuracy": 0.9965441407477222,
+        "validation_loss": 0.05813228863048883,
+        "macro_f1": 0.9967091701795414,
+        "validation_images": 12732,
+        "test_images_used_for_selection": false
+    },
+    "validation_transform_is_random": false,
+    "test_images_used": false
+}

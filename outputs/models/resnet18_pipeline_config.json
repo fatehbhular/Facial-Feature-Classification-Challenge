@@ -22,10 +22,10 @@
         "DogNose": 7
     },
     "image_size": 224,
-    "batch_size": 32,
+    "batch_size": 128,
     "random_seed": 42,
     "pretrained_weights": "ImageNet ResNet18 default weights",
-    "pretrained_weight_source": "not loaded - preparation mode",
+    "pretrained_weight_source": "attached Kaggle input: /kaggle/input/datasets/fatehbhular/facial-feature-project-artifacts/resnet18-f37072fd.pth",
     "head_only_epochs": 2,
     "fine_tuning_epochs": 8,
     "maximum_epochs": 10,

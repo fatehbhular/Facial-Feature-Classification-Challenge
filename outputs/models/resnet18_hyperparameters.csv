@@ -2,7 +2,7 @@ hyperparameter,value,reason
 Architecture,ResNet18,Strong efficient transfer-learning baseline
 Initial weights,ImageNet,Reuse general visual features
 Input size,224,Required by the selected pretrained setup
-Batch size,32,Improve GPU throughput while fitting memory
+Batch size,128,Improve GPU throughput while fitting memory
 Stage 1 epochs,2,Fit the new classifier first
 Stage 2 epochs,8,Adapt pretrained features
 Stage 1 classifier LR,0.001,Rapidly fit the new layer

@@ -1,0 +1,15 @@
+{
+    "epochs_completed": 10,
+    "best_epoch": 10,
+    "best_stage": "full_fine_tuning",
+    "best_validation_loss": 0.2814947518394535,
+    "best_validation_accuracy": 0.9965441407477222,
+    "training_accuracy_at_best_epoch": 0.9992538485705308,
+    "accuracy_gap_at_best_epoch": 0.0027097078228086,
+    "verified_validation_loss": 0.28149560917820754,
+    "verified_validation_accuracy": 0.9965441407477222,
+    "validation_images": 12732,
+    "total_training_minutes": 62.3891878695,
+    "stop_reason": "maximum_epochs",
+    "pretrained_weight_source": "attached Kaggle input: /kaggle/input/datasets/fatehbhular/facial-feature-project-artifacts/resnet18-f37072fd.pth"
+}

@@ -1,0 +1,10 @@
+check,result,expected
+Columns are exactly image_id and class,True,True
+Row count matches sample submission,True,True
+Image ID order is unchanged,True,True
+Every image ID is unique,True,True
+No prediction is missing,True,True
+Every prediction is an official class,True,True
+Every test image received one prediction,True,True
+Test transform has no random augmentation,True,True
+Notebook 5 selected ResNet18,True,True
