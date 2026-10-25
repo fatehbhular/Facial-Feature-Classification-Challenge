@@ -1,0 +1,18 @@
+{
+    "selected_model": "ResNet18",
+    "resnet18_kaggle_accuracy": 0.9463,
+    "resnet50_kaggle_accuracy": 0.9377,
+    "dognose_overpredicted": false,
+    "largest_positive_prediction_shift": "DogMouth",
+    "confirmed_primary_issue": "Local validation does not represent hidden-test difficulty",
+    "likely_mechanism": "Ambiguous or shifted test images are disproportionately assigned to DogMouth",
+    "recommended_next_experiment": "Validation-selected multi-seed ensemble using ResNet18 models only",
+    "not_recommended": [
+        "DogNose class weighting",
+        "DogNose oversampling",
+        "Manual correction of test predictions",
+        "Forcing test class counts to match training proportions"
+    ],
+    "test_images_manually_labelled": false,
+    "test_images_used_for_model_selection": false
+}

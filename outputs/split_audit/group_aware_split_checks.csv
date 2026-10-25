@@ -1,0 +1,7 @@
+check,result,expected
+Training and validation IDs do not overlap,True,True
+Every labelled image appears exactly once,True,True
+Connected group IDs do not overlap,True,True
+No same-class near-duplicate pair crosses the split,True,True
+Validation is approximately 20%,True,True
+Maximum class-proportion difference is below 0.5%,True,True

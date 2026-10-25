@@ -1,0 +1,15 @@
+image_id,filename,true_index,true_class,baseline_index,baseline_class,baseline_confidence,baseline_correct,tta_index,tta_class,tta_confidence,tta_correct,outcome
+02394,02394.jpg,2,CatFace,2,CatFace,0.525390625,True,6,CatNose,0.416748046875,False,introduced_error
+12057,12057.jpg,6,CatNose,1,DogEye,0.50634765625,False,6,CatNose,0.31396484375,True,corrected
+12399,12399.jpg,1,DogEye,0,CatEye,0.52490234375,False,1,DogEye,0.57275390625,True,corrected
+16296,16296.jpg,0,CatEye,1,DogEye,0.48046875,False,0,CatEye,0.6044921875,True,corrected
+16404,16404.jpg,7,DogNose,7,DogNose,0.66015625,True,6,CatNose,0.44287109375,False,introduced_error
+21064,21064.jpg,7,DogNose,1,DogEye,0.397216796875,False,3,DogFace,0.341796875,False,other_change
+21810,21810.jpg,0,CatEye,6,CatNose,0.341064453125,False,0,CatEye,0.3583984375,True,corrected
+22560,22560.jpg,0,CatEye,1,DogEye,0.365478515625,False,6,CatNose,0.359619140625,False,other_change
+29170,29170.jpg,6,CatNose,0,CatEye,0.48193359375,False,6,CatNose,0.472900390625,True,corrected
+30292,30292.jpg,6,CatNose,6,CatNose,0.205078125,True,7,DogNose,0.244384765625,False,introduced_error
+36329,36329.jpg,1,DogEye,1,DogEye,0.47900390625,True,6,CatNose,0.369873046875,False,introduced_error
+38947,38947.jpg,3,DogFace,7,DogNose,0.36572265625,False,1,DogEye,0.39794921875,False,other_change
+50175,50175.jpg,5,DogMouth,4,CatMouth,0.517578125,False,5,DogMouth,0.52685546875,True,corrected
+51045,51045.jpg,0,CatEye,6,CatNose,0.480224609375,False,0,CatEye,0.5263671875,True,corrected

@@ -1,0 +1,2 @@
+epoch,stage,stage_epoch,early_backbone_lr,final_block_lr,classifier_lr,training_loss,training_accuracy,images_processed,epoch_seconds,total_minutes
+1,classifier_only,1,0.0,0.0,0.001,0.5944084985204512,0.9074143889412504,63660,3254.2384308419996,54.23732048381667

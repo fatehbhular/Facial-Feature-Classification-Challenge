@@ -1,0 +1,19 @@
+{
+    "experiment": "horizontal_flip_tta",
+    "checkpoint": "resnet18_best.pth",
+    "checkpoint_epoch": 10,
+    "validation_images": 12732,
+    "baseline_accuracy": 0.9965441407477222,
+    "tta_accuracy": 0.996779767514923,
+    "accuracy_change": 0.00023562676720079168,
+    "baseline_macro_f1": 0.9967091701795414,
+    "tta_macro_f1": 0.996804005945326,
+    "predictions_changed": 14,
+    "baseline_errors_corrected": 7,
+    "new_errors_introduced": 4,
+    "decision_rule": "Approve only if TTA validation accuracy is higher",
+    "tta_approved": true,
+    "training_performed": false,
+    "test_images_loaded": false,
+    "evaluation_seconds": 495.442731342
+}

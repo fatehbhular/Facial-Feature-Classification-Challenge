@@ -1,0 +1,10 @@
+check,result,expected
+All validation images were evaluated,True,True
+Prediction order matches the saved split,True,True
+Every method returned one prediction per image,True,True
+All predicted class indices are valid,True,True
+All transforms are deterministic,True,True
+Group-aware checkpoint was loaded,True,True
+Model weights remained unchanged,True,True
+No Kaggle test images were used,True,True
+All evidence files were saved,True,True

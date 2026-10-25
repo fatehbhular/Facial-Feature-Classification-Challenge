@@ -1,0 +1,3 @@
+model,role,group_aware_validation_accuracy,public_kaggle_accuracy,validation_percent,kaggle_percent
+ResNet18,Selected final model,0.996229971724788,0.9463,99.6229971724788,94.63000000000001
+ResNet50,Rejected improvement experiment,0.9949732956330506,0.9377,99.49732956330506,93.77

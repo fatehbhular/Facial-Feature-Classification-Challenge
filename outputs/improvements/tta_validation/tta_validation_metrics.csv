@@ -1,0 +1,3 @@
+method,accuracy,macro_f1,errors,mean_confidence,accuracy_change_vs_baseline,approved_for_test_inference
+Baseline,0.9965441407477222,0.9967091701795414,44,0.9494664572411051,0.0,False
+Horizontal-flip TTA,0.996779767514923,0.996804005945326,41,0.950305551618216,0.00023562676720079168,True

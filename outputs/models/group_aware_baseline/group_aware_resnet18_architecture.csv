@@ -1,0 +1,9 @@
+component,output_description,purpose
+Input,3 × 224 × 224 RGB tensor,Normalised facial-feature image
+Convolutional stem,64 channels,"Learn basic edges, colours, and textures"
+Residual layer 1,64 channels; 2 residual blocks,Preserve and combine low-level features
+Residual layer 2,128 channels; 2 residual blocks,Learn more detailed patterns
+Residual layer 3,256 channels; 2 residual blocks,Learn higher-level facial-part structure
+Residual layer 4,512 channels; 2 residual blocks,Adapt high-level features to this dataset
+Adaptive average pooling,512 features,Summarise each final feature map
+Replacement classifier,8 unnormalised class scores,Predict one competition class

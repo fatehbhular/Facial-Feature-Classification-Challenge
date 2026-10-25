@@ -1,0 +1,7 @@
+priority,action,reason,risk
+1,Keep ResNet18 as the final model,It has the highest verified Kaggle accuracy (94.63%).,Low
+2,Do not apply DogNose class weighting or oversampling,"DogNose validation precision and recall are already above 99%, and it is not overpredicted.",Class weighting could reduce overall accuracy
+3,"If time permits, test a ResNet18-only multi-seed ensemble",Two independently trained ResNet18 models on the same leakage-controlled split can reduce prediction variance without changing to the weaker ResNet50 architecture. The ensemble must improve labelled validation accuracy before test inference.,Requires another ResNet18 training run and must be rejected if validation does not improve
+4,"For a retraining experiment, keep ResNet18 and evaluate one stronger regularisation change","The main gap is generalisation rather than insufficient model capacity. Candidate changes include classifier dropout or MixUp, evaluated separately rather than together.",Training augmentation can damage fine-grained feature boundaries
+5,Retain black square padding and the verified preprocessing,Previous geometry experiments did not justify changing the image transformation.,Changing several pipeline components would make the result difficult to interpret
+6,Do not force test predictions to match training class proportions,"The hidden test class distribution is unknown, so prior correction is not evidence-based.",Manual count correction may lower Kaggle accuracy and violates sound evaluation practice

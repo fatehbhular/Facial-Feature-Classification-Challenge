@@ -1,0 +1,25 @@
+subset,class,images,percentage
+Complete labelled data,CatEye,13884,21.809613572101792
+Complete labelled data,DogEye,11580,18.190386427898208
+Complete labelled data,CatFace,6942,10.904806786050896
+Complete labelled data,DogFace,5790,9.095193213949104
+Complete labelled data,CatMouth,6942,10.904806786050896
+Complete labelled data,DogMouth,5790,9.095193213949104
+Complete labelled data,CatNose,6942,10.904806786050896
+Complete labelled data,DogNose,5790,9.095193213949104
+Original validation,CatEye,2777,21.811184417216463
+Original validation,DogEye,2316,18.190386427898208
+Original validation,CatFace,1389,10.90951932139491
+Original validation,DogFace,1158,9.095193213949104
+Original validation,CatMouth,1388,10.901665095821551
+Original validation,DogMouth,1158,9.095193213949104
+Original validation,CatNose,1388,10.901665095821551
+Original validation,DogNose,1158,9.095193213949104
+Group-aware validation,CatEye,2777,21.811184417216463
+Group-aware validation,DogEye,2316,18.190386427898208
+Group-aware validation,CatFace,1388,10.901665095821551
+Group-aware validation,DogFace,1158,9.095193213949104
+Group-aware validation,CatMouth,1389,10.90951932139491
+Group-aware validation,DogMouth,1158,9.095193213949104
+Group-aware validation,CatNose,1388,10.901665095821551
+Group-aware validation,DogNose,1158,9.095193213949104

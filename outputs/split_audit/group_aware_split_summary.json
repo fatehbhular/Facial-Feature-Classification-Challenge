@@ -1,0 +1,18 @@
+{
+    "random_seed": 42,
+    "perceptual_hash": "64-bit DCT pHash",
+    "perceptual_distance_threshold": 6,
+    "cross_class_matches_grouped_automatically": false,
+    "labelled_images": 63660,
+    "near_duplicate_pairs": 1170,
+    "same_class_near_duplicate_pairs": 1151,
+    "cross_class_matches_for_review": 19,
+    "same_class_pairs_crossing_original_split": 398,
+    "original_validation_images_in_crossing_pairs": 215,
+    "group_aware_training_images": 50928,
+    "group_aware_validation_images": 12732,
+    "near_duplicate_pairs_crossing_new_split": 0,
+    "maximum_class_proportion_difference": 4.712535344014723e-05,
+    "old_checkpoint_valid_on_new_split": false,
+    "next_required_experiment": "Retrain the unchanged ResNet18 baseline on the group-aware split"
+}

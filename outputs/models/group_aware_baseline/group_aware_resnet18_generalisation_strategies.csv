@@ -1,0 +1,11 @@
+strategy,purpose
+Image augmentation,Create small realistic changes in training images only
+Transfer learning,Start from useful visual features rather than random filters
+Two-stage training,Stabilise the classifier before changing pretrained layers
+Discriminative learning rates,Change early pretrained layers more carefully
+AdamW weight decay,Discourage unnecessarily large parameter values
+Label smoothing,Reduce overconfident predictions during training
+Learning-rate scheduler,Use smaller updates when validation loss stops improving
+Early stopping,Stop after sustained validation non-improvement
+Best-checkpoint saving,Keep the strongest validation model instead of the final epoch
+Group-aware validation split,Keep detected near-duplicate groups within one subset

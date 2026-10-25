@@ -1,0 +1,6 @@
+measure,parameters,percentage_of_model
+Total parameters,11180616,100.0
+Backbone parameters,11176512,99.96329361459154
+Replacement-classifier parameters,4104,0.0367063854084605
+Trainable parameters in Stage 1,4104,0.0367063854084605
+Trainable parameters in Stage 2,11180616,100.0

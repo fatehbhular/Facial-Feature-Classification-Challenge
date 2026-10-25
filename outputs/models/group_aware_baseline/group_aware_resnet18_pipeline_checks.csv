@@ -1,0 +1,13 @@
+check,result,expected
+Eight official classes loaded,True,True
+Group-aware training subset loaded,True,True
+Group-aware validation subset loaded,True,True
+No shared image IDs,True,True
+No connected perceptual groups cross subsets,True,True
+Training and validation transforms differ,True,True
+Validation transform contains no random augmentation,True,True
+Forward pass returns eight scores,True,True
+Architecture evidence saved,True,True
+Hyperparameter evidence saved,True,True
+Training-stage evidence saved,True,True
+Generalisation evidence saved,True,True

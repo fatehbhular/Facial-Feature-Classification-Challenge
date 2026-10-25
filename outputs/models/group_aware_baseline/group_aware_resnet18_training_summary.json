@@ -1,0 +1,18 @@
+{
+    "experiment": "group_aware_baseline",
+    "split_strategy": "stratified connected perceptual groups",
+    "original_validation_accuracy": 0.9965441407477222,
+    "epochs_completed": 10,
+    "best_epoch": 9,
+    "best_stage": "full_fine_tuning",
+    "best_validation_loss": 0.2830857472190533,
+    "best_validation_accuracy": 0.996229971724788,
+    "training_accuracy_at_best_epoch": 0.9991163996229973,
+    "accuracy_gap_at_best_epoch": 0.0028864278982092,
+    "verified_validation_loss": 0.2830853538621045,
+    "verified_validation_accuracy": 0.9962299717247879,
+    "validation_images": 12732,
+    "total_training_minutes": 61.359449336316665,
+    "stop_reason": "maximum_epochs",
+    "pretrained_weight_source": "attached Kaggle input: /kaggle/input/datasets/fatehbhular/facial-feature-project-artifacts/resnet18-f37072fd.pth"
+}

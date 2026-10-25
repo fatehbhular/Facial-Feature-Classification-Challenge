@@ -1,0 +1,8 @@
+status,finding,evidence
+Confirmed,DogNose is not overpredicted,"ResNet18 predicted 2,470 DogNose images versus approximately 2,678 from training proportions."
+Confirmed,DogMouth has the largest positive prediction shift,"ResNet18 predicted 3,267 DogMouth images, +589 relative to the training-proportion reference."
+Confirmed,DogMouth is the least confident ResNet18 output class,Mean confidence was 0.849; 24.0% were below 0.80 confidence.
+Confirmed,DogNose performs strongly on labelled validation data,ResNet18 DogNose precision was 99.40% and recall was 99.57%.
+Confirmed,Increasing depth did not solve the generalisation gap,ResNet50 reduced public Kaggle accuracy from 94.63% to 93.77%.
+Hypothesis,Ambiguous test images may be pushed toward DogMouth,"DogMouth has both an elevated predicted count and the lowest mean confidence, but hidden labels prevent confirmation."
+Hypothesis,Training and test images may differ in source or crop style,"Both architectures score above 99% locally but below 95% on Kaggle, which is consistent with distribution shift."

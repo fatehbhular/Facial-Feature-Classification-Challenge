@@ -1,0 +1,33 @@
+{
+    "experiment": "geometry_and_preprocessing_robustness_audit",
+    "validation_images": 12732,
+    "checkpoint_epoch": 9,
+    "checkpoint_saved_accuracy": 0.9962299717247879,
+    "methods_evaluated": [
+        "baseline_black_pad",
+        "reflect_pad",
+        "imagenet_mean_pad",
+        "direct_resize",
+        "resize_center_crop",
+        "horizontal_flip_tta",
+        "baseline_reflect_ensemble",
+        "baseline_mean_pad_ensemble",
+        "baseline_direct_resize_ensemble",
+        "baseline_center_crop_ensemble"
+    ],
+    "baseline_accuracy": 0.9962299717247879,
+    "baseline_non_square_accuracy": 0.9979559391324098,
+    "baseline_high_padding_accuracy": 0.9978165938864629,
+    "selection": {
+        "selected_method": "baseline_black_pad",
+        "candidate_approved": false,
+        "selection_reason": "No alternative improved overall, non-square, and high-padding accuracy together.",
+        "evidence_strength": "directional but not statistically significant",
+        "exact_p_value": 1.0,
+        "test_images_used": false,
+        "model_weights_changed": false
+    },
+    "total_inference_minutes": 6.295136958849999,
+    "test_images_used": false,
+    "model_weights_changed": false
+}

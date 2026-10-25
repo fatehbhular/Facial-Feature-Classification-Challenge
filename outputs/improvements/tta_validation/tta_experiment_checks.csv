@@ -1,0 +1,7 @@
+check,result,expected
+All validation images evaluated,True,True
+Baseline reproduces Notebook 5 accuracy,True,True
+No model training performed,True,True
+No Kaggle test images loaded,True,True
+Class order matches the checkpoint,True,True
+Decision was made using validation accuracy,True,True

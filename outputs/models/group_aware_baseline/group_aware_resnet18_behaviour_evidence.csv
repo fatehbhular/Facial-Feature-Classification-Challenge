@@ -1,0 +1,14 @@
+measure,value
+Best validation epoch,9
+Best training stage,full_fine_tuning
+Training accuracy at best epoch,0.9991163996229973
+Validation accuracy at best epoch,0.996229971724788
+Accuracy gap at best epoch,0.0028864278982092
+Validation loss at best epoch,0.2830857472190533
+Lowest validation loss,0.2813637751361464
+Final training accuracy,0.9992931196983976
+Final validation accuracy,0.99583726044612
+Final validation loss,0.2813637751361464
+Completed epochs,10
+Total training minutes,61.35940644888333
+Stopping reason,maximum_epochs

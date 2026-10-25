@@ -1,0 +1,9 @@
+{
+    "selected_method": "baseline_black_pad",
+    "candidate_approved": false,
+    "selection_reason": "No alternative improved overall, non-square, and high-padding accuracy together.",
+    "evidence_strength": "directional but not statistically significant",
+    "exact_p_value": 1.0,
+    "test_images_used": false,
+    "model_weights_changed": false
+}

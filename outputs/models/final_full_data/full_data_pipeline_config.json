@@ -1,0 +1,58 @@
+{
+    "experiment": "final_resnet18_full_data",
+    "training_images": 63660,
+    "test_images": 29443,
+    "validation_images": 0,
+    "test_images_used_for_model_selection": false,
+    "class_names": [
+        "CatEye",
+        "DogEye",
+        "CatFace",
+        "DogFace",
+        "CatMouth",
+        "DogMouth",
+        "CatNose",
+        "DogNose"
+    ],
+    "class_to_index": {
+        "CatEye": 0,
+        "DogEye": 1,
+        "CatFace": 2,
+        "DogFace": 3,
+        "CatMouth": 4,
+        "DogMouth": 5,
+        "CatNose": 6,
+        "DogNose": 7
+    },
+    "image_size": 224,
+    "padding": "black square padding",
+    "normalisation_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "normalisation_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "training_augmentation": {
+        "horizontal_flip_probability": 0.5,
+        "maximum_rotation_degrees": 10,
+        "brightness_change": 0.15,
+        "contrast_change": 0.15,
+        "saturation_change": 0.1
+    },
+    "batch_size": 32,
+    "head_only_epochs": 2,
+    "fine_tuning_epochs": 8,
+    "learning_rates": {
+        "head_only": 0.001,
+        "early_backbone": 1e-05,
+        "final_block": 5e-05,
+        "classifier": 0.0002
+    },
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.05,
+    "schedule_evidence": "Original validation peaked at epoch 10; group-aware validation peaked at epoch 9 and remained within 0.04 percentage points at epoch 10."
+}

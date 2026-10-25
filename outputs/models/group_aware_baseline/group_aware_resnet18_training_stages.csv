@@ -1,0 +1,3 @@
+stage,maximum_epochs,trainable_components,early_backbone_lr,final_block_lr,classifier_lr
+Stage 1 - classifier only,2,Replacement classifier,0.0,0.0,0.001
+Stage 2 - full fine-tuning,8,Complete ResNet18,1e-05,5e-05,0.0002

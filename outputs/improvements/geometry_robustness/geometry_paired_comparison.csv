@@ -1,0 +1,11 @@
+method,baseline_errors_corrected,new_errors_introduced,net_errors_removed,predictions_changed,exact_p_value,statistically_significant_0_05
+baseline_black_pad,0,0,0,0,1.0,False
+reflect_pad,4,2546,-2542,2551,0.0,True
+imagenet_mean_pad,4,271,-267,275,7.794613752553222e-75,True
+direct_resize,4,2546,-2542,2551,0.0,True
+resize_center_crop,11,2648,-2637,2661,0.0,True
+horizontal_flip_tta,4,4,0,8,1.0,False
+baseline_reflect_ensemble,4,222,-218,226,1.9985175291778314e-60,True
+baseline_mean_pad_ensemble,4,5,-1,9,1.0,False
+baseline_direct_resize_ensemble,4,363,-359,367,5.00192514680764e-102,True
+baseline_center_crop_ensemble,7,865,-858,872,4.754383537264088e-246,True

@@ -1,0 +1,48 @@
+{
+    "model_name": "resnet18",
+    "experiment": "group_aware_baseline",
+    "split_strategy": "stratified connected perceptual groups",
+    "only_changed_variable": "training-validation split",
+    "number_of_classes": 8,
+    "class_names": [
+        "CatEye",
+        "DogEye",
+        "CatFace",
+        "DogFace",
+        "CatMouth",
+        "DogMouth",
+        "CatNose",
+        "DogNose"
+    ],
+    "class_to_index": {
+        "CatEye": 0,
+        "DogEye": 1,
+        "CatFace": 2,
+        "DogFace": 3,
+        "CatMouth": 4,
+        "DogMouth": 5,
+        "CatNose": 6,
+        "DogNose": 7
+    },
+    "image_size": 224,
+    "batch_size": 128,
+    "random_seed": 42,
+    "pretrained_weights": "ImageNet ResNet18 default weights",
+    "pretrained_weight_source": "attached Kaggle input: /kaggle/input/datasets/fatehbhular/facial-feature-project-artifacts/resnet18-f37072fd.pth",
+    "head_only_epochs": 2,
+    "fine_tuning_epochs": 8,
+    "maximum_epochs": 10,
+    "label_smoothing": 0.05,
+    "weight_decay": 0.0001,
+    "training_time_guard_minutes": 100,
+    "training_images": 50928,
+    "validation_images": 12732,
+    "training_augmentation": {
+        "horizontal_flip_probability": 0.5,
+        "maximum_rotation_degrees": 10,
+        "brightness_change": 0.15,
+        "contrast_change": 0.15,
+        "saturation_change": 0.1
+    },
+    "validation_random_augmentation": false
+}
